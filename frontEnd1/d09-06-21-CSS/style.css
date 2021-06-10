@@ -1,0 +1,27 @@
+body {
+    background-color: cornflowerblue;
+    font-family: 'Odibee Sans', cursive;
+    text-align: center;
+    line-height: 30px;
+}
+
+p{
+    font-size: 20px;
+    text-decoration: underline;
+}
+
+
+.titulo_principal{
+    
+    color: blue;
+}
+
+.p_inline{
+    display: inline;
+    font-size: 100px;
+    color: red;
+}
+
+ul{
+    text-align: left;
+}

@@ -1,0 +1,15 @@
+Faça upload, tanto para o repositório do curso quanto no seu próprio, um arquivo com o nome de Git_e_Github_Sobrenome_Nome que contém a reflexão para as seguintes questões:
+
+Quem inventou o sistema de controle de versão Git e por quê?
+
+Foi inventado por Linus Torvalds, foi inventado para resolver a necessidade de um sistema de distribuição descentralizada, e que seguisse a filosofia de software livre, assim como o Linux, e sem se preocupar em ficar preso a uma ferramenta proprietária que de um dia pro outro os criadores resolvessem comercializá-lo.
+	
+
+Quem atualmente é o dono do Github e por quê?
+
+São Fundadores: Tom Preston-Werner, Chris Wanstrath, Scott Chacon, P. J. Hyett e atualmente o CEO é Nat Friedman ( desde 29 de out. de 2018).
+
+
+Existe outra maneira, além do terminal, de trabalhar com o Github?
+
+Sim, pode-se trabalhar através do Git GUI ou através do Visual Studio Code

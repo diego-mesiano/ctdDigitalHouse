@@ -10,22 +10,24 @@ Se a pessoa medir menos de 1.40m, deverá ir acompanhada.
 Se a pessoa medir menos de 1.20m, não poderá subir, nem acompanhada.*/
 
 
-let alt = 1.25;
-let acomp = true;
+let alt = 1.19;
+let acomp = false;
+let resposta
 function podeSubir(altura, acompanhado) {
     if (altura<1.20 | altura>2){
-        return (console.log (false + 'Acesso negado.';));
+        resposta = 'False. Acesso negado.';}
     else if(altura>1.40){
-        return true;}
+        resposta = 'True. Acesso autorizado.';}
     else {
         if (acompanhado == true) {
-            return true;}
+            resposta = 'True. Acesso autorizado somente com acompanhante.';}
         else { 
-            return false;}
+            resposta = 'False. Acesso negado.';}
         }
+    return console.log(resposta);
     }
     
-console.log(podeSubir(alt, acomp));
+podeSubir(alt, acomp);
 
 /*Modifique a função podeSubir(), de modo que ela exiba uma mensagem de autorização ou de impedimento no acesso ao brinquedo 
 dependendo se a pessoa se enquadra ou não nas condições do exercício anterior. Por exemplo:

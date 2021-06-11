@@ -105,8 +105,12 @@ console.log('Tudo maiusculo:',filme);
 //4)No mesmo arquivo, crie este array e uma função que adiciona cada elemento do array de desenhos animados (cartoons) ao array de filmes.
 
 let cartoons = ["toy story", "Procurando Nemo", "kung-fu panda", "wally", "fortnite"];
-let juncao = filme.concat(cartoons);
-filme=juncao;
+
+function juntar(arr1,arr2){
+    let juncao = arr1.concat(arr2);
+    return juncao;}
+
+filme=juntar(filme,cartoons);
 console.log('\nArrays concatenadas com sucesso!',filme);
 
 //5)Um dos desenvolvedores avisou que a última animação é na verdade um jogo, então remova esse último elemento do array de desenhos 

@@ -1,0 +1,62 @@
+.divsPadrao{
+    border:solid 2px rgb(30, 30, 107);
+    margin:10px;
+    padding: 10px;
+}
+.testeLargura{
+    border:solid 2px black;
+    width: 50%;
+}
+
+.testeAltura{
+    border:solid 2px black;
+    height: 80px;
+}
+
+.testePadding{
+    border:solid 2px black;
+    background-color: blue;
+    color:blanchedalmond;
+    padding:12px 20px;
+}
+
+.testeBorder{
+    border:solid 2px red;
+    color:blanchedalmond;
+    padding:12px 20px;
+}
+
+.ex1{
+    background-color: cadetblue;
+}
+
+.ex2{
+    display: inline;
+    border:solid 2px black;
+    margin-right: 50px;
+}
+.ex3{
+    display: inline;
+    border:solid 2px black;
+    position: relative;
+    left:-20px;
+    top: -20px;
+}
+
+.exAbs1{
+    display: inline;
+    border: solid 2px black;
+}
+
+.exAbs2{
+    display: inline;
+    border: solid 2px black;
+    position: absolute;
+    right: 20px;
+    
+}
+
+.exAbs3{
+    display: inline;
+    border: solid 2px black;
+}

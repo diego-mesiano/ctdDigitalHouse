@@ -38,25 +38,93 @@
 .ex3{
     display: inline;
     border:solid 2px black;
+    
+}
+
+.ex4{
+    color:white;
+    background-color: teal;
+    border:solid 2px black;
     position: relative;
-    left:-20px;
-    top: -20px;
+    left: -50px;
+    display: inline;
 }
 
 .exAbs1{
     display: inline;
     border: solid 2px black;
+    
 }
 
 .exAbs2{
     display: inline;
     border: solid 2px black;
     position: absolute;
-    right: 20px;
+    left: 20px;
     
 }
 
 .exAbs3{
     display: inline;
     border: solid 2px black;
+}
+.divsPadrao2{
+    border:solid 2px rgb(30, 30, 107);
+    margin:10px;
+    padding: 10px;
+    height: 150px;
+}
+body{
+    box-sizing: border-box;
+}
+.divsPadrao3{
+    color: white;
+    background-color: teal;
+    border:solid 2px rgb(30, 30, 107);
+    margin:10px;
+    padding: 10px;
+    width:10%;
+    position:fixed;
+    right: 2px;
+    bottom: 10px;
+}
+.divsPadrao4{
+    color: white;
+    background-color: rgb(30, 42, 110);
+    border:solid 2px rgb(30, 30, 107);
+    margin:10px;
+    padding: 10px;
+    
+    position:sticky;
+    top: 0px;
+}
+.cxz1{
+    color:blanchedalmond;
+    background-color: blue;
+    width: 50px;
+    height: 50px;
+    border-color: black;
+    z-index: 10;
+}
+.cxz2{
+    color:blanchedalmond;
+    background-color: rgb(255, 0, 0);
+    width: 50px;
+    height: 50px;
+    border-color: black;
+    z-index: 50;
+    position: relative;
+    left:20px;
+    bottom: 50px;
+}
+.cxz3{
+    color:blanchedalmond;
+    background-color: rgb(0, 255, 64);
+    width: 50px;
+    height: 50px;
+    border-color: black;
+    z-index: 100;
+    position: relative;
+    left:40px;
+    bottom: 100px;
 }

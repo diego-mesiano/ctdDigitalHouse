@@ -4,6 +4,11 @@
 -- ------------------------------------------------------
 -- Server version	5.7.33
 
+
+
+CREATE DATABASE musimundos;
+USE musimundos;
+
 /*!40101 SET @OLD_CHARACTER_SET_CLIENT=@@CHARACTER_SET_CLIENT */;
 /*!40101 SET @OLD_CHARACTER_SET_RESULTS=@@CHARACTER_SET_RESULTS */;
 /*!40101 SET @OLD_COLLATION_CONNECTION=@@COLLATION_CONNECTION */;
@@ -20,7 +25,7 @@
 --
 
 DROP TABLE IF EXISTS `albuns`;
-/*!40101 SET @saved_cs_client     = @@character_set_client */;
+/*!40101 SET @saved_cs_client = @@character_set_client */;
 /*!50503 SET character_set_client = utf8mb4 */;
 CREATE TABLE `albuns` (
   `id` smallint(6) NOT NULL,
@@ -28,8 +33,8 @@ CREATE TABLE `albuns` (
   `id_artista` smallint(6) DEFAULT NULL,
   PRIMARY KEY (`id`),
   KEY `id_artista_idx` (`id_artista`),
-  CONSTRAINT `id_artista` FOREIGN KEY (`id_artista`) REFERENCES `artistas` (`id`)
-) ENGINE=InnoDB DEFAULT CHARSET=utf8;
+  CONSTRAINT `id_artista` FOREIGN KEY (`id_artista`) REFERENCES `artistas` (`id`)) 
+ENGINE=InnoDB DEFAULT CHARSET=utf8;
 /*!40101 SET character_set_client = @saved_cs_client */;
 
 --
@@ -47,7 +52,7 @@ UNLOCK TABLES;
 --
 
 DROP TABLE IF EXISTS `artistas`;
-/*!40101 SET @saved_cs_client     = @@character_set_client */;
+/*!40101 SET @saved_cs_client = @@character_set_client */;
 /*!50503 SET character_set_client = utf8mb4 */;
 CREATE TABLE `artistas` (
   `id` smallint(6) NOT NULL,

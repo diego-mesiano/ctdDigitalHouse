@@ -142,3 +142,11 @@ h3{
 .topo{
     text-align: center;
 }
+
+.divsPadrao5{
+    background-color:rgb(52, 57, 58);
+    border:solid 2px rgb(30, 30, 107);
+    margin:10px;
+    padding: 10px;
+    height: 210px;
+}

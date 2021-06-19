@@ -35,8 +35,6 @@ fizzBuzzPlus(5,10,'Não Fatorial 1','Não fatorial 2','Ambos Fatoriais');
 
 // O tech leader da equipe precisa criar um código onde seja calculado o número fatorial de um valor inteiro. Para isto, deveremos:
 // Criar uma função que calcula o fatorial (soma dos seus antecessores até 1) usando loop (for);
-// Recriar esta mesma função usando recursividade (sem o uso de for)
-
 console.log('\n-------------------------\n-------------------------\n');
 let fatorial = (n) =>{
     for (let i=n; i>1; i--) n = (i-1) + n;
@@ -45,5 +43,6 @@ let fatorial = (n) =>{
 
 console.log('Fatorial', fatorial(500));
 
+// Recriar esta mesma função usando recursividade (sem o uso de for)
 
 

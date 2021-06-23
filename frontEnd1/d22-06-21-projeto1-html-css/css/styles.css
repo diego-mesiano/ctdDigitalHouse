@@ -1,0 +1,56 @@
+.cabecalho{
+    padding: 25px;
+    border-color: palevioletred;
+    background-color: #392a62;
+    text-align: left;
+    position: sticky;
+    top: 0px;
+}
+
+body{
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    font-size: 30px;
+}
+
+.menu{
+    text-align: center;
+}
+
+.opcoes{
+    color: white;
+    padding: 5px;
+    background-color: #c53877;
+    font-size: 50px;
+    border: solid;
+    border-color: white;
+    position: relative;
+    bottom: 60px;
+    margin: 20px;
+}
+
+.img{
+    position: relative;
+    top: 21px;
+    
+}
+
+.foto{
+    width: 100%;
+}
+
+footer{
+    text-align: center;
+    border-style: solid;
+    background-color: #392a62;
+    color: white;
+}
+
+.whats{
+    position:fixed;
+    bottom:1px;
+    right: 1px;
+}
+.icon{
+    width: 100px;
+}

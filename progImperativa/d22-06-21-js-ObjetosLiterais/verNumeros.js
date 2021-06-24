@@ -15,10 +15,7 @@ console.log(juntos);
 utilizando a função Math.min(). Uma observação importante é que a função Math.min() NÃO deve receber um array como parâmetro, 
 sendo portanto, necessário expandir os valores.*/
 
+let menorNumero = (...arr) => console.log (Math.min(...arr));
 
-//let [num1,num2,num3,num4,num5,num6] = juntos;
-
-let menorNumero = (arr) => console.log( Math.min(arr));
-
-menorNumero(juntos);
+menorNumero(1,9,0);
 

@@ -5,6 +5,5 @@ let gerarAleatorio=(n)=> {
     num =  Math.floor(Math.random() * n + 1);
     return console.log(num)
 }
-gerarAleatorio(3);
 
-module.exports = gerarAleatorio();
+module.exports = gerarAleatorio;

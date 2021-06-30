@@ -1,0 +1,22 @@
+button{
+    
+    margin: 20%;
+    padding: 25px;
+    background-color: red;
+    color: white;
+    border-style: solid;
+    border-color: red;
+
+    transition: /**aqui aplica o efeito de transição**/
+        background-color, 0.5s,
+        color, 0.5s;
+}
+
+button:hover{ /** aqui o efeito se aplica quando o usuario posiciona o mouse em cima do elemento**/
+    background-color: black;
+    border-color: black; 
+    transform: scale(2); /**Aqui o elemento duplica de tamanho**/
+    /**transform: skew(-15deg);  Aqui o elemento curva para diagonal**/
+    transform: rotate(180deg); /**Aqui o elemento gira 180 graus**/
+    
+}

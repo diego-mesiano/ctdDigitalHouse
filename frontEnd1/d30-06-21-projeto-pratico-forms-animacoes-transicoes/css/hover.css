@@ -1,0 +1,22 @@
+#form > h1:hover{
+    color: white;
+}
+
+.hvr-bk{
+    transition: all 0.3s ease-in-out; /*transição deve estar no elemento e não no hover*/
+}
+
+.hvr-bk:hover{
+    background-color: purple;
+    border-radius: 5px;
+}
+
+.btn{
+    transition: all 0.3s ease-in-out;;
+}
+
+.btn:hover{
+    background-color: white;
+    color: purple;
+    font-weight: bold;
+}

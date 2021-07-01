@@ -85,6 +85,7 @@ let microondas=(tipo_prato,tempo)=>{ //função microondas
     } else {tempo_valido=false;} // se o tempo informado for um numero invalido desvalida o tempo
     
     console.log('\n********************************\n****BEM VINDO AO MICROONDAS*****\n********************************');
+    console.log('********************************\n*************0.LIVRE************\n********************************');
     console.log('********************************\n*************1.PIPOCA***********\n********************************');       //menu
     console.log('********************************\n************2.MACARRÃO**********\n********************************');
     console.log('********************************\n**************3.CARNE***********\n********************************');

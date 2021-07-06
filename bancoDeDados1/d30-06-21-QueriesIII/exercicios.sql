@@ -57,15 +57,32 @@ GROUP BY `correos`.`CorreoID`;								-- ORDENADO PELO GRUPO DE ID CORREO
 -- Exiba as informações no formato considerado mais adequado. Por exemplo: <endereço> (CP: < CEP>) 
 SELECT * FROM `facturas`;
 
+SELECT * FROM `clientes`;
+
 SELECT
 	`clientes`.`ClienteID` AS "ID CLIENTE",
     `clientes`.`Contacto` AS "NOME",
     CONCAT("RUA: ",`clientes`.`Direccion`, " CIDADE: ",`clientes`.`Ciudad`, " UF: ", `clientes`.`Regiones`, " CEP: ",`clientes`.`CodigoPostal`, " Pais: ", `Pais`) AS "ENDEREÇO COMPLETO"
 FROM `clientes`
-INNER JOIN `facturas`
-	-- ON `facturas`.`ClienteID` = `clientes`.`ClienteID`
--- GROUP BY `facturas`.`ClienteID`
-WHERE `facturas`.`ClienteID` != `clientes`.`ClienteID`;
+WHERE `clientes`.`ClienteID` NOT IN (select `ClienteID` from `facturas`);  
+
+-- 3. Liste os funcionários, juntamente com o valor total das vendas da categoria Bebidas.  Mostre a quantidade com duas casas decimais.
+
+SELECT * FROM `empleados`; 
+SELECT * FROM `productos`;
+SELECT * FROM `categorias`;
+SELECT * FROM `facturas`; -- tem EmpleadoID
+SELECT * FROM `facturadetalle`;
+
+SELECT 
+	`empleados`.`EmpleadoID`,
+    `empleados`.`Apellido`,
+    SUM(`facturadetalle`.`PrecioUnitario`)
+FROM `empleados`
+INNER JOIN `facturas` ON `empleados`.`EmpleadoID` = `facturas`.`EmpleadoID`
+INNER JOIN  `facturadetalle` ON `facturadetalle`.`FacturaID` = `facturas`.`FacturaID`;
+
+	
 
 
     

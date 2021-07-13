@@ -1,0 +1,147 @@
+*VIEWPORTS*
+
+A tag <meta> viewport da instruções ao navegador de como se deve dimensionar e escalar a pagina. Importante para paginas que precisam ser responsivas.
+
+Estrutura básica:
+
+<meta name="viewport" content="width=device-width, initial-sacale=1">
+
+
+*DEVTOOLS*
+
+Nos permite inspecionar o código e modifica-lo de forma local, ou seja, nós vizualizaremos as mudanças mas o codigo fonte não será alterado, então, quando atualizarmos a pagina ela voltara para seu estado padrão.
+Para acessar, pode-se clicar com botão direito e clicar em inspecionar elemento ou atraves do comando F12 ou CMD+i
+Além disso, essa ferramenta nos permite ver a pagina em diferentes tamanhos e saber como ela ira se comportar em diferentes dispositivos.
+
+*MEDIDAS RELATIVAS*
+
+São aquelas que levam em conta todo contexto da página que são inseridas. Se o contexto da pagina permitir, as medidas relativas vão se adaptar nesse contexto.
+
+O numero inserido podera ser:
+-o container pai
+-o container da fonte do site
+-o tamanho da fonte do container pai
+-o tamanho do viewport
+
+*As Porcentagens*
+
+Sempre estara relacionada com a medida do Elemento pai que a contém.
+Se o container mede 300px de largura  e atribuirmos a largura de 50% ao elemento filho, este medirá 150px (50% da largura do pai).
+
+OBS: não é recomendado usar porcentagem para definir altura de um elemento.
+
+Calculando as porcentagens:
+
+Uma boa forma de calcular as porcentagens se dá por meio da regra de 3 simples:
+
+para cada elemento a conta seria:
+emelemento_filho*100 / elemento_pai = porcentagem
+
+*Os em's*
+
+Os ems são sempre relativos ao elemento pai, tomaram como valor de referencia as propriedades do font-size.
+
+Se por exemplo associarmos 1.5em ao fonte size de qualquer elemento o tamanho resultante será o valor que foi atribuido ao elemento pai * 1.5. Se for 16px * 1.5 =24px.
+
+Por padrão o html tem 16px e os demais elementos 1em.
+
+*Os rem's*
+Funcionam parecido com os ems, a diferença é que sempre usarao de base o tamanho do font-size do elemento <HTML>.
+
+*MEDIDAS DE VIEWPORT*
+
+View port é o espaço visivel que o navegador tem para mostrar o site.
+
+*Viewport width e height*
+
+vw = viewport width, é relativo a largura total do viewport.
+vh = viewport height, é relativo a altura do viewport.
+
+Amabas medidas expressas em %, ou seja, 50vh é equivalente a 50% da altura disponivel do viewport.
+
+exemplo:
+
+div{
+	width: 25vw; //25% da largura disponivel
+	height: 50vh; //50% da altura disponivel
+}
+
+*MEDIA QUERIES*
+
+Conjunto de regras CSS que nos permite manipular e alterar os elementos do site, para que eles se adaptem a tamanhos de tela diferentes.
+
+*min-widht*
+
+Ao especificar o min-width estamos dizendo: "se a viewport tem no minimo N pixels de largura, serao aplicadas estas regras" ou "Se tiver no minimo essa largura, faça isso"
+
+@media (min-width: 460px){
+	body{
+		background:red;
+	}
+}
+
+*max-width*
+
+Ao especificar o max-width estamos dizendo: "se a viewport tem N pixels de largura, serao aplicadas estas regras" ou "Se tiver no maximo essa largura, faça isso"
+
+@media (min-width: 768px){
+	body{
+		background:yellow;
+	}
+}
+
+*Orientação*
+
+Pode ser portrait ou landscape e quer dizer: "Se o viewport tiver no maximo N pixels de largura e o dispositivo esta em posição vertical/horizontal, serão aplicadas estas regras"
+
+@media (max-widht: 460px) and (orientation:lanscape){
+	body{
+		background: blue;
+	}
+}
+
+*ESTRATEGIAS DE MONTAGEM*
+
+*Mobile First*
+A ideia é determinar de maneira geral as regras do CSS para telas pequenas logo no começo e, através das media queries, ir portando e aumentando os elementos da viewport.
+
+body{
+	background: red;
+}
+@media (min-width: 460px){
+	/*Tablets*/
+}
+@media (min-width: 768px){
+	/*Laptop*/
+}
+
+*Mobile Last*
+A ideia é determinar de maneira geral as regras do css para telas grandes çpgp no começo e, através das media queries, ir portando e diminuindo os elementos na view port.
+
+body{
+	background: red;
+}
+@media (max-width: 768px){
+	/*Tablets*/
+}
+@media (max-width: 460pxpx){
+	/*smartphones*/
+}
+
+
+*Os Breakpoints*
+
+São os pontos de largura da tela que "quebrarão" e aplicarão as media queries que inserirmos de acordo com a largura.
+
+Não há uma regra para qual usar, mas aqui estão alguns (em px):
+
+Smaller ou smartphones: 0-480;
+Tablets e smartphones na horizontal: 481-768;
+Laptops, tablets na horizontal e pequenos desktops: 769-1279;
+Desktops e monitores largos: 1280+.
+
+1920x1080 px monitores full HD
+
+https://www.youtube.com/watch?v=vkzU0o1zjzw
+
+

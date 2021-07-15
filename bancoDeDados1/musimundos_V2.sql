@@ -1,3 +1,6 @@
+CREATE SCHEMA musimundos_v2;
+
+USE musimundos_v2;
 
 -- MySQL dump 10.13  Distrib 8.0.22, for Linux (x86_64)
 --

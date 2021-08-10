@@ -1,0 +1,96 @@
+1950 - introduzido como uma nova maneira de abordar os desafios de negocios.
+mais tarde foi aplicado ao design de produtos, um deles é produtos digitais.
+
+Reduz o RISCO do planos de lançamento de novos produtos.
+
+Obter Insights sobre a UX = DESIGN THINKING
+
+Na palavra Design Thinking:
+
+A enfase dever ser colocada no Thinking e não no Design. Thinking(Pensamento), logo, qualquer pessoa de qualquer area de conhecimento pode se beneficiar do Design Thinking.
+
+
+Resumo da abordagem da empresa IDEO (Pioneiros no uso do Design Thinking na decada de 90):
+"A tentativa e erro sábia (em equipe) tem mais sucesso que o planejamento do gênio solitário"
+
+5 etapas do DT
+
+Empatizar = 
+Empatia siginifica que vc entende e compartilha os sentimentos dela. Quando somos capazes de entender como nossos clientes se sentem, somos capazes de oferecer a eles as soluções de que eles mais precisam. Encontraram muito valor em nosso produto.
+Exemplos de atividades que podem ser utilizadas nessa etapa:
+-Entrevistas com Clientes;
+-Testes de Usuário com Concorrentes(Benchmark);
+
+Definir = 
+Você já usou um produto de uma empresa e parece
+que ela o projetou para você? É um sentimento maravilhoso e uma prova poderosa de que um problema bem definido para o qual entendemos quem precisa do quê, a solução pode resultar em uma
+ótima experiência.Chamamos isso de enquadramento do problema = estruturar um problema, explicando e descrevendo o contexto do  problema que foi relatado por nosso cliente. Fazer isso bem permite que vc tenha certeza de que as solucoes encontradas são as corretas, projetadas para as pessoas certas.
+
+Pergunte:
+● Quem está enfrentando o problema?
+● Qual é o problema?
+● Onde o problema se apresenta?
+● Por que é importante que esse problema seja resolvido?
+
+
+Idear = 
+Ideação uma forma de explorar como podemos
+resolver problemas para nossos clientes.
+Quando temos ideias, podemos explorar problemas
+específicos que uma pessoa em particular está
+enfrentando.
+Solução Centrada no Cliente
+● Quem é nosso cliente?
+● Quais são suas necessidades
+● Qual é o problema específico a ser resolvido?
+Uma maneira comum de fazer isso dentro do design thinking é
+desenvolver declarações de problemas centradas no ser humano.
+Problema > Solução - O problema é mais importante que a solução.
+É muito comum em estágios de um desenvolvimento de projeto que os
+envolvidos se apegue a uma solução específica:
+● O melhor detalhamento, especificamente quem, o quê, onde e por
+que há um problema.
+● Um problema que precisa ser corrigido, em vez de uma solução à
+procura de um problema.
+Exemplos de atividades que podem ser utilizadas nessa fase:
+● Brainstorm
+● Crazy 8s
+● Wireframing
+
+Prototipar =
+É algo na linha de um modelo físico,
+digamos, um novo produto ou, se for digital, um protótipo
+de um aplicativo, mas dentro do design thinking, um
+protótipo tem um uso ainda mais amplo, que permite
+uma vasta gama de protótipos de papel provocativo
+para design de produto.
+Protótipo Provocativo
+● Eles podem ser qualquer coisa que você criar para fazer com que os
+clientes interajam com esses protótipos e forneçam insights.
+● Em qualquer tipo de protótipo, você deve pensar no seu objetivo.
+Como por exemplo:
+○ Se diferenciar dos concorrentes (Inovação)
+○ Ser de fácil entendimento e utilização (Convenção)
+Design Thinking 36
+As Cinco Etapas: Prototipar
+● A prototipagem do design thinking engloba uma vasta gama de
+experiências, desde papel a maquetes de produtos e muito mais.
+● Seja qual for a forma que assumam, no pensamento de design, os
+protótipos estão sempre focados em aprender sobre seus clientes e
+como você pode melhorar um produto existente ou como você pode
+criar novas experiências.
+● Na próxima vez que você quiser aprender mais sobre seus clientes,
+considere a criação de um protótipo.
+
+Testar =
+Exemplos de atividades que podem ser utilizadas nessa fase:
+● Teste de usabilidade
+● Teste A/B
+● Teste de Eyetracking
+
+ATENÇÃO! Você não é seu usuário.
+● Você pode até compartilhar algumas características com seu usuário,
+mas depende de você, como profissional, tentar ao máximo separar
+seus próprios preconceitos e suposições do processo e aprender o
+que seu usuário realmente precisa.
+

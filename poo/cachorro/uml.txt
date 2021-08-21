@@ -1,0 +1,13 @@
+cachorros
+
+-primeiroNome:String
+-raça:String
+-ano:int
+-peso:Float
+-possuem chip: boolean
+-ferido: boolean
+-------------------
++Pode ser perdidos? => compreendendo que aqueles que têm um chip são os que não podem ser perdidos
+
++Pode ser adotado? => se não estiver ferido e pesar mais de 5 kg.
+

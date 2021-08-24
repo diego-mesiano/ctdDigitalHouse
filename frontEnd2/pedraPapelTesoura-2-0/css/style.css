@@ -11,8 +11,9 @@ body{
     border-style: none;
     padding: 10px 20px;
     border-radius: 20px;
+    font-weight: 700;
 }
 
 #btnJogar{
-    background-color: red;
+    background-color: lightgray;
 }

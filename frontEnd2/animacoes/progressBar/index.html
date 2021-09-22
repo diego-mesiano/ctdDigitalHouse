@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Progress Bar</title>
+    <style>
+        body {
+            height: 100vh;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+    
+        #progresso {
+            width: 30%;
+            border: 2px solid rgb(27, 27, 27);
+            box-shadow: 3px 3;
+        }
+    
+        #barra {
+            width: 0%;
+            height: 30px;
+            background-color: #04aa6d;
+            text-align: center;
+            line-height: 30px;
+            color: white;
+        }
+    
+        #iniciar-carga {
+            margin-top: 1rem;
+            padding: 0.3rem;
+            border-radius: 5px;
+            box-shadow: 3px 3px 5px darkgray;
+            cursor: pointer;
+        }
+    </style>
+    <script>
+        // Simulamos um processo que demora 5 segundos para completar
+        const tempoDeCarga = 5000;
+
+        function animarBarra() {
+            // Selecionamos o elemento barra
+            let elem = document.getElementById("barra");
+
+            // Iniciamos o processo em 0, para assegurar 
+            // que sempre comece do 0
+            let width = 0;
+            // Calculamos o progresso em relação ao total 
+            const progressoSobreTempoTotal = tempoDeCarga / 100;
+
+            // Criamos um intervalo que se repete no tempo em que calculamos
+            // para incrementar no progresso
+            let id = setInterval(incrementarProgresso, progressoSobreTempoTotal);
+
+            function incrementarProgresso() {
+                // Se o progresso estiver completo, terminamos o funcionamento do programa
+                if (width >= 100) {
+                    clearInterval(id);
+                } else {
+                    width++;
+
+                    // Modificamos o DOM, para atualizar o progresso
+                    elem.style.width = width + "%";
+                    elem.innerHTML = width + "%";
+                }
+            }
+        }
+    </script>
+</head>
+<body>
+    <div id="progresso">
+        <div id="barra">10%</div>
+    </div>
+    <button id="iniciar-carga"onclick = "animarBarra();">Começar o carregamento</button>
+</body>
+
+</html>

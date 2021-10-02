@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 4.1.1 (Python 3.9.7 on win32)" generated="20211001 10:59:12.726" rpa="false" schemaversion="2">
+<suite id="s1" name="Hurb" source="C:\Users\Matias\Desktop\ctdDigitalHouse\testing1\seleniumRobot\Hurb.robot">
+<test id="s1-t1" name="Hurb">
+<kw name="Abrir o site do hurb" library="Hurb">
+<kw name="Open Browser" library="SeleniumLibrary">
+<arg>http://hurb.com/br</arg>
+<arg>chrome</arg>
+<doc>Opens a new browser instance to the optional ``url``.</doc>
+<msg timestamp="20211001 10:59:13.020" level="INFO">Opening browser 'chrome' to base url 'http://hurb.com/br'.</msg>
+<status status="PASS" starttime="20211001 10:59:13.019" endtime="20211001 10:59:16.986"/>
+</kw>
+<status status="PASS" starttime="20211001 10:59:13.019" endtime="20211001 10:59:16.986"/>
+</kw>
+<kw name="Processo de reserva de pacote de viagens" library="Hurb">
+<kw name="Click Element" library="SeleniumLibrary">
+<arg>${COOKIES} timeout=0.5</arg>
+<doc>Click the element identified by ``locator``.</doc>
+<msg timestamp="20211001 10:59:16.988" level="INFO">Clicking element 'css=#CybotCookiebotDialogBodyLevelButtonLevelOptinAllowAll timeout=0.5'.</msg>
+<kw name="Capture Page Screenshot" library="SeleniumLibrary">
+<doc>Takes a screenshot of the current page and embeds it into a log file.</doc>
+<msg timestamp="20211001 10:59:17.265" level="INFO" html="true">&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td colspan="3"&gt;&lt;a href="selenium-screenshot-9.png"&gt;&lt;img src="selenium-screenshot-9.png" width="800px"&gt;&lt;/a&gt;</msg>
+<status status="PASS" starttime="20211001 10:59:17.008" endtime="20211001 10:59:17.265"/>
+</kw>
+<msg timestamp="20211001 10:59:17.268" level="FAIL">InvalidSelectorException: Message: invalid selector: An invalid or illegal selector was specified
+  (Session info: chrome=94.0.4606.71)
+</msg>
+<status status="FAIL" starttime="20211001 10:59:16.987" endtime="20211001 10:59:17.268"/>
+</kw>
+<kw name="Click Element" library="SeleniumLibrary">
+<arg>${PACOTES}</arg>
+<doc>Click the element identified by ``locator``.</doc>
+<status status="NOT RUN" starttime="20211001 10:59:17.269" endtime="20211001 10:59:17.269"/>
+</kw>
+<kw name="Input Text" library="SeleniumLibrary">
+<arg>${INPUT} Buenos Aires</arg>
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<status status="NOT RUN" starttime="20211001 10:59:17.269" endtime="20211001 10:59:17.269"/>
+</kw>
+<kw name="Click Element" library="SeleniumLibrary">
+<arg>${PESQUISAR}</arg>
+<doc>Click the element identified by ``locator``.</doc>
+<status status="NOT RUN" starttime="20211001 10:59:17.269" endtime="20211001 10:59:17.269"/>
+</kw>
+<kw name="Click Element" library="SeleniumLibrary">
+<arg>${PACOTE}</arg>
+<doc>Click the element identified by ``locator``.</doc>
+<status status="NOT RUN" starttime="20211001 10:59:17.269" endtime="20211001 10:59:17.269"/>
+</kw>
+<kw name="Click Element" library="SeleniumLibrary">
+<arg>${ESCOLHEROPCAO}</arg>
+<doc>Click the element identified by ``locator``.</doc>
+<status status="NOT RUN" starttime="20211001 10:59:17.269" endtime="20211001 10:59:17.269"/>
+</kw>
+<kw name="Click Element" library="SeleniumLibrary">
+<arg>${COMPRAR}</arg>
+<doc>Click the element identified by ``locator``.</doc>
+<status status="NOT RUN" starttime="20211001 10:59:17.269" endtime="20211001 10:59:17.269"/>
+</kw>
+<kw name="Click Element" library="SeleniumLibrary">
+<arg>${GARANTIR}</arg>
+<doc>Click the element identified by ``locator``.</doc>
+<status status="NOT RUN" starttime="20211001 10:59:17.269" endtime="20211001 10:59:17.270"/>
+</kw>
+<kw name="Click Element" library="SeleniumLibrary">
+<arg>${BOLETOPARC}</arg>
+<doc>Click the element identified by ``locator``.</doc>
+<status status="NOT RUN" starttime="20211001 10:59:17.270" endtime="20211001 10:59:17.270"/>
+</kw>
+<kw name="Input Text ${NOME} Diego Mesiano">
+<status status="NOT RUN" starttime="20211001 10:59:17.273" endtime="20211001 10:59:17.273"/>
+</kw>
+<kw name="Input Text ${CPF} 12345678910">
+<status status="NOT RUN" starttime="20211001 10:59:17.276" endtime="20211001 10:59:17.276"/>
+</kw>
+<kw name="Input Text ${CELULAR} 19987510588">
+<status status="NOT RUN" starttime="20211001 10:59:17.279" endtime="20211001 10:59:17.279"/>
+</kw>
+<kw name="Click Element ${SEISX}">
+<status status="NOT RUN" starttime="20211001 10:59:17.283" endtime="20211001 10:59:17.283"/>
+</kw>
+<kw name="Click Element" library="SeleniumLibrary">
+<arg>${CONCORDO}</arg>
+<doc>Click the element identified by ``locator``.</doc>
+<status status="NOT RUN" starttime="20211001 10:59:17.283" endtime="20211001 10:59:17.283"/>
+</kw>
+<status status="FAIL" starttime="20211001 10:59:16.987" endtime="20211001 10:59:17.284"/>
+</kw>
+<status status="FAIL" starttime="20211001 10:59:13.017" endtime="20211001 10:59:17.285">InvalidSelectorException: Message: invalid selector: An invalid or illegal selector was specified
+  (Session info: chrome=94.0.4606.71)
+</status>
+</test>
+<status status="FAIL" starttime="20211001 10:59:12.729" endtime="20211001 10:59:17.287"/>
+</suite>
+<statistics>
+<total>
+<stat pass="0" fail="1" skip="0">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat pass="0" fail="1" skip="0" id="s1" name="Hurb">Hurb</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>

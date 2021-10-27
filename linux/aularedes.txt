@@ -1,0 +1,80 @@
+***Número de IP da Rede***
+
+192.168.15.4 
+
+
+
+***Número de IP de Loopback***
+
+127.0.1.1
+
+***Informações de DNS de www.pudim.com.br ***
+
+
+; <<>> DiG 9.16.1-Ubuntu <<>> www.pudim.com.br
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 56223
+;; flags: qr rd ra; QUERY: 1, ANSWER: 2, AUTHORITY: 0, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; udp: 65494
+;; QUESTION SECTION:
+;www.pudim.com.br.		IN	A
+
+;; ANSWER SECTION:
+www.pudim.com.br.	2441	IN	CNAME	pudim.com.br.
+pudim.com.br.		2441	IN	A	54.207.20.104
+
+;; Query time: 0 msec
+;; SERVER: 127.0.0.53#53(127.0.0.53)
+;; WHEN: qua out 27 14:41:41 -03 2021
+;; MSG SIZE  rcvd: 75
+
+
+***Informações de usuário logado na rede***
+
+ 14:42:42 up  1:14,  1 user,  load average: 0,00, 0,22, 0,88
+USUARIO  TTY      DE               LOGIN@   OCIOSO JCPU   PCPU O QUE
+diego    tty7     :0               13:29    1:13m  1:27   0.34s mate-session
+
+***Pingando no pudim.com.br***
+
+PING pudim.com.br (54.207.20.104) 56(84) bytes of data.
+
+--- pudim.com.br estatísticas de ping ---
+6 pacotes transmitidos, 0 recebidos, 100% perda de pacote, tempo 3059ms
+
+
+***Traçando rota de nós até pudim.com.br***
+
+traceroute to www.google.com.br (142.250.219.163), 30 hops max, 60 byte packets
+ 1  _gateway (192.168.15.1)  2.043 ms  1.626 ms  1.875 ms
+ 2  * * *
+ 3  187-100-84-170.dsl.telesp.net.br (187.100.84.170)  13.723 ms  13.409 ms 187-100-84-168.dsl.telesp.net.br (187.100.84.168)  13.060 ms
+ 4  152-255-163-233.user.vivozap.com.br (152.255.163.233)  14.231 ms 152-255-176-166.user.vivozap.com.br (152.255.176.166)  14.281 ms 152-255-163-233.user.vivozap.com.br (152.255.163.233)  13.931 ms
+ 5  152-255-176-167.user.vivozap.com.br (152.255.176.167)  14.144 ms * *
+ 6  209.85.173.104 (209.85.173.104)  16.811 ms 72.14.219.88 (72.14.219.88)  14.464 ms  14.509 ms
+ 7  10.252.236.94 (10.252.236.94)  13.631 ms * *
+ 8  209.85.254.180 (209.85.254.180)  14.347 ms  15.198 ms gru06s63-in-f3.1e100.net (142.250.219.163)  15.267 ms
+
+***Informações sobre as interfaces de rede***
+
+enp0s3: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        inet 192.168.15.4  netmask 255.255.255.0  broadcast 192.168.15.255
+        inet6 fe80::cfdb:e35a:b9a:75d4  prefixlen 64  scopeid 0x20<link>
+        ether 08:00:27:7d:d8:74  txqueuelen 1000  (Ethernet)
+        RX packets 46933  bytes 56969551 (56.9 MB)
+        RX errors 0  dropped 0  overruns 0  frame 0
+        TX packets 15754  bytes 3026079 (3.0 MB)
+        TX errors 0  dropped 0 overruns 0  carrier 0  collisions 0
+
+lo: flags=73<UP,LOOPBACK,RUNNING>  mtu 65536
+        inet 127.0.0.1  netmask 255.0.0.0
+        inet6 ::1  prefixlen 128  scopeid 0x10<host>
+        loop  txqueuelen 1000  (Loopback Local)
+        RX packets 1643  bytes 172063 (172.0 KB)
+        RX errors 0  dropped 0  overruns 0  frame 0
+        TX packets 1643  bytes 172063 (172.0 KB)
+        TX errors 0  dropped 0 overruns 0  carrier 0  collisions 0
+

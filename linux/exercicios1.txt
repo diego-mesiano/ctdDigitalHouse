@@ -1,27 +1,110 @@
 1) Exiba o número de IP da rede no terminal
+hostname -I
 
 2) Adicione a saída do comando anterior
+192.16*.**.*
 
 3) Exiba o número de IP Loopback no terminal
+hostname -i
 
 4) Adicione a saída do comando anterior
+127.0.1.1
 
 5) Exiba Informações DNS sobre o host www.pudim.com.br
+dig www.pudim.com.br
 
 6) Adicione a saída do comando anterior
+; <<>> DiG 9.16.1-Ubuntu <<>> www.pudim.com.br
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 30813
+;; flags: qr rd ra; QUERY: 1, ANSWER: 2, AUTHORITY: 0, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; udp: 65494
+;; QUESTION SECTION:
+;www.pudim.com.br.		IN	A
+
+;; ANSWER SECTION:
+www.pudim.com.br.	2861	IN	CNAME	pudim.com.br.
+pudim.com.br.		2864	IN	A	54.207.20.104
+
+;; Query time: 183 msec
+;; SERVER: 127.0.0.53#53(127.0.0.53)
+;; WHEN: qua out 27 13:37:04 -03 2021
+;; MSG SIZE  rcvd: 75
 
 7) Exiba Informações do Usuário logado na rede
+finger ou w
 
 8) Adicione a saída do comando anterior
+Login     Name       Tty      Idle  Login Time   Office     Office Phone
+diego     Diego      tty7       10  Oct 27 13:29 (:0)
+
 
 9) Execute um teste no host www.pudim.com.br com 6 pacotes
+ping www.pudim.com.br -w 6
 
 10) Adicione a saída do comando anterior
+PING pudim.com.br (54.207.20.104) 56(84) bytes of data.
+
+--- pudim.com.br estatísticas de ping ---
+6 pacotes transmitidos, 0 recebidos, 100% perda de pacote, tempo 5100ms
 
 11) Trace a Rota do seu computador até o host www.pudim.com.br
+traceroute www.pudim.com.br
 
 12) Adicione a saída do comando anterior
+traceroute to www.pudim.com.br (54.207.20.104), 30 hops max, 60 byte packets
+ 1  _gateway (192.168.15.1)  1.701 ms  1.678 ms  2.090 ms
+ 2  * * *
+ 3  187-100-84-170.dsl.telesp.net.br (187.100.84.170)  11.475 ms 187-100-84-168.dsl.telesp.net.br (187.100.84.168)  11.642 ms  11.286 ms
+ 4  152-255-163-231.user.vivozap.com.br (152.255.163.231)  13.763 ms 152-255-176-170.user.vivozap.com.br (152.255.176.170)  13.405 ms 152-255-163-231.user.vivozap.com.br (152.255.163.231)  13.060 ms
+ 5  * * *
+ 6  152-255-162-57.user.vivozap.com.br (152.255.162.57)  28.957 ms  22.790 ms  22.242 ms
+ 7  * * *
+ 8  * * *
+ 9  150.222.70.76 (150.222.70.76)  16.131 ms 150.222.70.84 (150.222.70.84)  17.412 ms 150.222.70.78 (150.222.70.78)  16.071 ms
+10  52.93.44.89 (52.93.44.89)  16.420 ms 52.93.44.73 (52.93.44.73)  17.671 ms 52.93.44.57 (52.93.44.57)  17.242 ms
+11  177.72.240.193 (177.72.240.193)  18.015 ms  18.864 ms 177.72.240.119 (177.72.240.119)  15.828 ms
+12  * * *
+13  * * *
+14  * * *
+15  * * *
+16  * * *
+17  * * *
+18  * * *
+19  * * *
+20  * * *
+21  * * *
+22  * * *
+23  * * *
+24  * * *
+25  * * *
+26  * * *
+27  * * *
+28  * * *
+29  * * *
+30  * * *
 
 13) Exiba Informações sobre Interfaces de Rede e Endereços IP no terminal
+ifconfig
 
 14) Adicione a saída do comando anterior
+enp0s3: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        inet 192.168.15.4  netmask 255.255.255.0  broadcast 192.168.15.255
+        inet6 fe80::cfdb:e35a:b9a:75d4  prefixlen 64  scopeid 0x20<link>
+        ether 08:00:27:7d:d8:74  txqueuelen 1000  (Ethernet)
+        RX packets 4474  bytes 4825752 (4.8 MB)
+        RX errors 0  dropped 0  overruns 0  frame 0
+        TX packets 2244  bytes 183694 (183.6 KB)
+        TX errors 0  dropped 0 overruns 0  carrier 0  collisions 0
+
+lo: flags=73<UP,LOOPBACK,RUNNING>  mtu 65536
+        inet 127.0.0.1  netmask 255.0.0.0
+        inet6 ::1  prefixlen 128  scopeid 0x10<host>
+        loop  txqueuelen 1000  (Loopback Local)
+        RX packets 250  bytes 23200 (23.2 KB)
+        RX errors 0  dropped 0  overruns 0  frame 0
+        TX packets 250  bytes 23200 (23.2 KB)
+        TX errors 0  dropped 0 overruns 0  carrier 0  collisions 0

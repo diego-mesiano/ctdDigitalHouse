@@ -1,0 +1,27 @@
+1) Exiba o número de IP da rede no terminal
+
+2) Adicione a saída do comando anterior
+
+3) Exiba o número de IP Loopback no terminal
+
+4) Adicione a saída do comando anterior
+
+5) Exiba Informações DNS sobre o host www.pudim.com.br
+
+6) Adicione a saída do comando anterior
+
+7) Exiba Informações do Usuário logado na rede
+
+8) Adicione a saída do comando anterior
+
+9) Execute um teste no host www.pudim.com.br com 6 pacotes
+
+10) Adicione a saída do comando anterior
+
+11) Trace a Rota do seu computador até o host www.pudim.com.br
+
+12) Adicione a saída do comando anterior
+
+13) Exiba Informações sobre Interfaces de Rede e Endereços IP no terminal
+
+14) Adicione a saída do comando anterior

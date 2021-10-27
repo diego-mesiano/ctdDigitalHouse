@@ -13,11 +13,15 @@ public class Funcionario extends Vendedor {
 
     //Adicionar um afiliado ao funcionario, e por sua vez soma os pontos
     public void addAfiliado(Vendedor afiliado){
+
         this.afiliados.add(afiliado);
     }
 
     @Override
     public int calcularPontos(){
         return (this.afiliados.size()*10) + (this.anosAntiguidade)*5 + (this.vendas * 5);
+    }
+
+    public void vender(int qtdVendas) {
     }
 }

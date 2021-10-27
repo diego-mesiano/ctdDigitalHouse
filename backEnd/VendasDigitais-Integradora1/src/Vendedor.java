@@ -11,7 +11,12 @@ public abstract class Vendedor {
 
     public String mostrarCategoria() {
         int pontosDoVendedor = calcularPontos();
-        return this.nome + "tem um total de " + pontosDoVendedor + " pontos e categoriza como " + getNomeCategoria(pontosDoVendedor);
+        return this.nome + " tem um total de " + pontosDoVendedor + " pontos e categoriza como " + getNomeCategoria(pontosDoVendedor);
+    }
+
+    public String mostrarCategoriaEstagiario() {
+        int pontosDoVendedor = calcularPontos();
+        return this.nome + " tem um total de " + pontosDoVendedor + " pontos e categoriza como " + getNomeEstagiario(pontosDoVendedor);
     }
 
     private String getNomeCategoria(int pontosVendedor) {
@@ -23,6 +28,14 @@ public abstract class Vendedor {
             return "vendedor bom";
         } else {
             return "vendedor mestre";
+        }
+    }
+
+    private String getNomeEstagiario(int pontosVendedor) {
+        if (pontosVendedor < 51) {
+            return "estagiário novato";
+        } else {
+            return "estagiário experiente";
         }
     }
 }

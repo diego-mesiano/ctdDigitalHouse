@@ -1,0 +1,75 @@
+COMANDOS ÚTEIS EM LINUX:
+
+history: exibe o historico de comandos utilizados no terminal
+
+
+history -c: apaga o historico de comandos
+
+
+alias apelido='comando': Cria um apelido para um comando, ex: alias hh='history' => cria um apelido para o comando history, para chama-lo basta digitar hh 
+
+
+wc -l arquivoTexto.txt: conta o numero de linhas do arquivo
+
+
+wc -w arquivoTexto.txt: conta o numero de palavras do arquivo
+
+
+ls -a: lista arquivos e diretorios ocultos
+
+
+cmp texto1.txt texto2.txt: Compara dois arquivos de texto
+
+
+sort -n texto.txt: organiza a SAIDA do arquivo em ordem numerica
+
+
+last reboot: mostra todas as informações de reinicialização do sistema
+
+
+route -n: Mostra todas as tabelas de roteamento IP do nosso Kernel
+
+
+time comandoAserTestado: Mede o tempo que o comando demora para ser executado
+
+
+uptime: Mostra o tempo que o sistema esta ligado
+
+
+init 0 OU telinit 0: Desliga a maquina
+
+
+halt: desliga a maquina somente apos autenticação
+
+
+seq 1 10: imprime uma sequencia de numeros
+
+
+seq 1 10 >> texto.txt: imprime a sequencia dentro do arquivo texto
+
+
+vi ou nano texto.txt: editor de texto
+
+
+whereis comando: mostra o caminho de onde esta o comando com o manual
+
+
+which comando: mostra apenas o caminho do comando
+
+
+logout: faz um fim de sessão
+
+
+COMANDOS NÃO TÃO ÚTEIS:
+
+cowsay "Texto a ser Mostrado": Mostra uma vaquinha(??) dizendo o texto escolhido
+
+
+xcowsay "texto": Mostra uma vaquinha aprimorada
+
+
+cmatrix: entrar na matrix(kkk)
+
+
+LINUX EM MAQUINA VIRTUAL POR JS: https://bellard.org/jslinux => RODA O LINUX NO NAVEGADOR EM MAQUINA VIRTUAL
+

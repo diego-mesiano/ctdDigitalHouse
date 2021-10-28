@@ -1,0 +1,11 @@
+[2021-10-28 11:09:47] [ INFO ] [Test:8] Iniciamos nosso método Main
+[2021-10-28 11:09:47] [ ERROR] [Test:13] Numero não pode ser divisivel por 0
+java.lang.ArithmeticException: / by zero
+	at Test.main(Test.java:11)
+[2021-10-28 11:11:44] [ INFO ] [Test:8] Iniciamos nosso método Main
+[2021-10-28 11:11:44] [ ERROR] [Test:13] Numero não pode ser divisivel por 0
+java.lang.ArithmeticException: / by zero
+	at Test.main(Test.java:11)
+[2021-10-28 11:11:44] [ WARN ] [Test:15] Aviso, o método main esta prestes a terminar
+[2021-10-28 11:11:44] [ INFO ] [Test:16] Aviso, o método main esta prestes a terminar
+[2021-10-28 11:11:44] [ DEBUG] [Test:17] Aviso, o método main esta prestes a terminar

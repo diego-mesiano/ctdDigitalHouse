@@ -1,0 +1,45 @@
+[2021-10-28 11:46:02] [ INFO ] [Leao:36] O Leão Léo esta correndo!
+[2021-10-28 11:46:48] [ INFO ] [Leao:36] O Leão Léo esta correndo!
+[2021-10-28 11:49:32] [ INFO ] [Leao:36] O Leão Léo esta correndo!
+[2021-10-28 11:49:32] [ INFO ] [Leao:43] O leãoLéo não tem idade para correr!
+[2021-10-28 11:52:45] [ INFO ] [Leao:36] O Leão Léo esta correndo!
+[2021-10-28 11:52:45] [ INFO ] [Leao:43] O leãoLéo não tem idade para correr!
+[2021-10-28 11:52:45] [ INFO ] [Leao:36] O Leão Joarez esta correndo!
+[2021-10-28 11:52:45] [ ERROR] [Leao:45] A idade não pode ser negativa
+[2021-10-28 11:52:45] [ ERROR] [Test:30] A idade do leão Joarez está incorreta
+java.lang.Exception
+	at Leao.ehMaiorQue10(Leao.java:46)
+	at Test.main(Test.java:28)
+[2021-10-28 12:01:15] [ INFO ] [Leao:36] O Leão Léo esta correndo!
+[2021-10-28 12:01:15] [ INFO ] [Leao:43] O leãoLéo tem menos de 10 anos!
+[2021-10-28 12:01:15] [ INFO ] [Leao:36] O Leão Joarez esta correndo!
+[2021-10-28 12:01:15] [ ERROR] [Leao:47] A idade não pode ser negativa
+[2021-10-28 12:01:15] [ ERROR] [Test:30] A idade do leão Joarez está incorreta
+java.lang.Exception
+	at Leao.ehMaiorQue10(Leao.java:48)
+	at Test.main(Test.java:28)
+[2021-10-28 12:03:43] [ INFO ] [Leao:36] O Leão Léo esta correndo!
+[2021-10-28 12:03:43] [ INFO ] [Leao:43] O leãoLéo tem menos de 10 anos!
+[2021-10-28 12:03:43] [ INFO ] [Leao:36] O Leão Joarez esta correndo!
+[2021-10-28 12:03:43] [ ERROR] [Leao:47] A idade não pode ser negativa
+[2021-10-28 12:03:43] [ ERROR] [Test:30] A idade do leão Joarez está incorreta
+java.lang.Exception
+	at Leao.ehMaiorQue10(Leao.java:48)
+	at Test.main(Test.java:28)
+[2021-10-28 12:03:43] [ INFO ] [Tigre:27] O Tigre Tigrão esta correndo!
+[2021-10-28 12:05:39] [ INFO ] [Leao:36] O Leão Léo esta correndo!
+[2021-10-28 12:05:39] [ INFO ] [Leao:43] O leãoLéo tem menos de 10 anos!
+[2021-10-28 12:05:39] [ INFO ] [Leao:36] O Leão Joarez esta correndo!
+[2021-10-28 12:05:39] [ ERROR] [Leao:47] A idade não pode ser negativa
+[2021-10-28 12:05:39] [ ERROR] [Test:30] A idade do leão Joarez está incorreta
+java.lang.Exception
+	at Leao.ehMaiorQue10(Leao.java:48)
+	at Test.main(Test.java:28)
+[2021-10-28 12:05:39] [ INFO ] [Tigre:27] O Tigre Tigrão esta correndo!
+[2021-10-28 12:05:39] [ INFO ] [Tigre:34] O TigreTigrão não tem idade para correr!
+[2021-10-28 12:05:39] [ INFO ] [Tigre:27] O Tigre Tiger esta correndo!
+[2021-10-28 12:05:39] [ ERROR] [Tigre:36] A idade não pode ser negativa
+[2021-10-28 12:05:39] [ ERROR] [Test:52] A idade do tigre Tiger está incorreta
+java.lang.Exception
+	at Tigre.ehMaiorQue10(Tigre.java:37)
+	at Test.main(Test.java:50)

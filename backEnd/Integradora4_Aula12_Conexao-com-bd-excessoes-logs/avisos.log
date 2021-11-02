@@ -1,0 +1,8 @@
+[2021-11-01 22:05:16] [ ERROR] [Main:115] Tentou inserir ids iguais na tabela!
+[2021-11-01 22:05:16] [ DEBUG] [Main:81] Usuário com id = 1 e campo = CARGO foi atualizado!
+[2021-11-01 22:05:17] [ INFO ] [Main:136] Usuário com ID = 2 foi apagado!
+[2021-11-01 22:05:17] [ INFO ] [Main:136] Usuário com NOME = João foi apagado!
+[2021-11-01 22:07:07] [ ERROR] [Main:111] Tentou inserir ids iguais na tabela!
+[2021-11-01 22:07:07] [ DEBUG] [Main:79] Usuário com id = 1 e campo = CARGO foi atualizado!
+[2021-11-01 22:07:07] [ INFO ] [Main:130] Usuário com ID = 2 foi apagado!
+[2021-11-01 22:07:07] [ INFO ] [Main:130] Usuário com NOME = João foi apagado!

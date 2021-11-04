@@ -1,0 +1,16 @@
+AWSTemplateFormatVersion: "2010-09-09"
+
+Description: Deploy bucket aula T3 
+Resources:
+  DeployBalde:
+    Type: AWS::S3::Bucket
+  BackupBalde:
+    Type: AWS::S3::Bucket
+Outputs: 
+  DeplayBucketName:
+  Value: Ref DeployBucket
+  Description: Deploy da aplicacao
+  Export:
+    Name: Sub ${AWS::StackName}-DeployBucketName
+    
+

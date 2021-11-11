@@ -12,18 +12,21 @@ export default class Formulario extends Component {
                 icon: 'error',
                 text: 'Ei cara, NOME não pode estar vazio!!'
             })
+            document.getElementById('nome').focus();
         }else if(telefone === ''){
             Swal.fire({
                 title: 'ERRO!!!',
                 icon: 'error',
                 text: 'Ei cara, TELEFONE não pode estar vazio!!'
             })
+            document.getElementById('telefone').focus();
         }else if(email === ''){
             Swal.fire({
                 title: 'ERRO!!!',
                 icon: 'error',
                 text: 'Ei cara, EMAIL não pode estar vazio!!'
             })
+            document.getElementById('email').focus();
         }else{
             console.log("Validou e enviou!");
             Swal.fire({

@@ -1,12 +1,15 @@
 {
-  "name": "cronometro-react",
+  "name": "exercicio",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "formik": "^2.2.9",
     "react": "^17.0.2",
     "react-dom": "^17.0.2",
-    "react-scripts": "4.0.3"
-},
+    "react-scripts": "4.0.3",
+    "sass": "^1.43.4",
+    "sweetalert2": "^11.1.10"
+  },
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",

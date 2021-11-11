@@ -1,0 +1,14 @@
+Olá Houser, tudo bem com você? Esta atividade tem como objetivo fixarmos o que vimos sobre formulário
+ e eventos, vamos fazer algo bem legal. Crie um projeto onde você vai ter um formulário com 3 campos: 
+ Nome, telefone e email. Utilize o Formik e o SweetAlert para adiantar as coisas. Ao dar o submit, os 
+ dados que foram preenchidos no formulário devem ser exibidos dentro do alerta. 
+
+Dica, procure na documentação do SweetAlert como colocar html dentro do alerta a ser exibido.
+Instruções e requisitos do entregável
+
+input que irá colocar seu nome.
+input que irá colocar seu telefone.
+input que irá colocar seu email.
+Ao enviar, deve exibir os dados do Formik no SweetAlert.
+Conclusão
+Parabéns! A sua página está ficando um máximo!

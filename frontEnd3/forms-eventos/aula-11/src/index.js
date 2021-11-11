@@ -1,12 +1,11 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import Cronometro from './components/Cronometro/App'
+import './index.scss';
+import App from './App';
 
 ReactDOM.render(
   <React.StrictMode>
-    <Cronometro />
+    <App />
   </React.StrictMode>,
   document.getElementById('root')
 );
-
-

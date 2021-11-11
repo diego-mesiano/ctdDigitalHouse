@@ -1,2 +1,4 @@
-package service;public interface DentistaService {
+package service;
+
+public interface IDentistaService {
 }

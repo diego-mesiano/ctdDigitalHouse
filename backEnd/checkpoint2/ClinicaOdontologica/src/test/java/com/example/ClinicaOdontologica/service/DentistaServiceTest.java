@@ -39,15 +39,15 @@ public class DentistaServiceTest {
 //        dentista.setMatricula((long) 516156);
 //        dentistaService.cadastrar(dentista);
 //    }
-    @Test
-    public void buscarPorIdTest(){
-        Dentista dentista = new Dentista();
-        dentista.setNome("Joao");
-        dentista.setSobrenome("Junior");
-        dentista.setMatricula((long) 516156);
-            Dentista result = dentistaService.cadastrar(dentista);
-            assertThat(result).isNotNull();
-    }
+//    @Test
+//    public void buscarPorIdTest(){
+//        Dentista dentista = new Dentista();
+//        dentista.setNome("Joao");
+//        dentista.setSobrenome("Junior");
+//        dentista.setMatricula((long) 516156);
+//            Dentista result = dentistaService.cadastrar(dentista);
+//            assertThat(result).isNotNull();
+//    }
 
 
 
